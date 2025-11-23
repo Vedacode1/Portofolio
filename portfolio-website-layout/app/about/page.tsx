@@ -1,16 +1,16 @@
 "use client"
 
 import { Navigation } from "@/components/navigation"
-import { HeroSection } from "@/components/hero-section"
-import { ServicesSection } from "@/components/services-section"
+import { AboutSection } from "@/components/about-section"
 import { Footer } from "@/components/footer"
 
-export default function Home() {
+export default function AboutPage() {
   return (
     <main className="min-h-screen bg-background">
       <Navigation />
-      <HeroSection />
-      <ServicesSection />
+      <div className="pt-16">
+        <AboutSection />
+      </div>
       <Footer />
     </main>
   )
